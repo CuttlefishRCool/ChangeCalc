@@ -15,7 +15,7 @@ var dollars = 0;
 var result = give - take;
 // use Math.round to get the dollars
 
-document.getElementById("test").textContent = result;
+
 
 // use divide of coin value and round
 while(result > 0){

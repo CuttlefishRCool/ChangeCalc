@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(162, 162, 162); 
+}
+/*
+.intro {
+    color:rgb(206, 23, 29);
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  font-size: 18px;
+  font-style: bold;
+  font-family:  Arial, Helvetica, sans-serif;
+    #firstIntro {
+        margin-right: 15vh;
+    }
+}
+
+.inputs {
+  display: flex;
+  justify-content: center; /* horizontal 
+  align-items: center;     /* vertical 
+  
+    input {
+        margin-right: 5vh;
+         width: 35vh;
+         background-color: transparent;
+         border: none;
+         border-bottom: 2px solid;
+         border-color: rgb(206, 23, 29);
+         color: azure;
+
+    }
+    select {
+        width: 35vh;
+        border:none;
+        border-bottom: 2px solid;
+        border-color: rgb(206, 23, 29);
+        background-color: transparent;
+        color: azure
+        
+    }
+    option {
+        background-color: grey;
+    }
+
+}
+*/
+.outputs {
+  display: flex;
+  justify-content: center; 
+  align-items: right;
+
+}
+/*
+.initiate {
+  display: flex;
+  justify-content: center; /* horizontal 
+  align-items: center;     /* vertical 
+   margin-top: 10vh;
+   button {
+    height: 7vh;
+    width: 21vh;
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: orangered;
+    color: black;
+   } 
+} */
