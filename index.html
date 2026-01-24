@@ -3,25 +3,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Change Calculator</title>
+    <title>What's my change?</title>
      <link rel = "stylesheet" href="styles.css">
+     <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+    ></script>
   </head>
   <body>
     <!-- Write your markup here -->
-    <H1>Change Calculator</H1>
+    <H1>What's my change?</H1>
     
-    <div class="inputs">
+    <div class="inputs-Change">
+      <p>USD Given</p>
     <input id ='amount-received'/>
+       <p>USD Due</p>
     <input id ='amount-due'/>
     <button id ="calculate-change">Where's my money?</button>
     </div>
+    <div class = "inputs-exchange">
+      <p>Foreign Currency</p>
+     <input id ='amount-have'/>
+     <select id = 'currencies'></select>
+      <button id ="calculate-rate">What's my money?</button>
+    </div>
 
     <div class="outputs"> 
+      <div>
+    <img src = "Change/Dollar.png" alt= "U.S. Dollar">
     <p id ="dollars-output"></p>
+    </div>
+    <div>
+    <img src = "Change/quarter.png" alt= "U.S. Dollar">
     <p id ="quarters-output"></p>
+    </div>
+    <div>
+    <img src = "Change/dime.png" alt= "U.S. Dollar">
     <p id ="dimes-output"></p>
+    </div>
+    <div>
+    <img src = "Change/nickel.png" alt= "U.S. Dollar">
     <p id ="nickels-output"></p>
+    </div>
+    <div>
+    <img src = "Change/penny.png" alt= "U.S. Dollar">
     <p id ="pennies-output"></p>
+    </div>
+    <p id ="amount-remaining"></p>
     </div>
     <!-- Don't forget to add your <script> tag here -->
       <script src = "main.js" charset="utf-8"></script>

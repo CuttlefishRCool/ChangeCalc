@@ -1,0 +1,12 @@
+[
+{ "Currency": "EUR", "exRate":"1.175"},
+{ "Currency": "JPY", "exRate":"0.006"},
+{ "Currency": "GBP", "exRate":"1.357"},
+{ "Currency": "AUD", "exRate":"0.687"},
+{ "Currency": "CAD", "exRate":"0.728"},
+{ "Currency": "CHF", "exRate":"1.267"},
+{ "Currency": "CNY", "exRate":"0.161"},
+{ "Currency": "HKD", "exRate":"0.144"},
+{ "Currency": "SGD", "exRate":"0.879"},
+{ "Currency": "NZD", "exRate":"0.665"}
+]

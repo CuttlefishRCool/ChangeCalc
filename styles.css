@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(162, 162, 162); 
+  background-color: rgb(176, 242, 177); 
 }
 /*
 .intro {
@@ -44,12 +44,44 @@ body {
     }
 
 }
-*/
+*/ 
 .outputs {
-  display: flex;
-  justify-content: center; 
-  align-items: right;
+  background-color: antiquewhite;
+  #amount-remaining{
+    color: red;
+  }
+}
 
+.outputs img{
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+}
+.outputs div{
+  width: 25ch;
+  height: auto;
+background-color: white;
+object-fit: hidden;
+border: 2px solid black;
+}
+.outputs p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs-Change{
+  width: 77ch;
+  height: auto;
+  display: flex;
+  background-color: white;
+  border: 2px solid black;
+}
+.inputs-exchange{
+  width: 58ch;
+  height: auto;
+    display: flex;
+  background-color: white;
+  border: 2px solid black;
 }
 /*
 .initiate {
